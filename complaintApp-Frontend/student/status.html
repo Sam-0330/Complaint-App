@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Complaints</title>
+  <link rel="stylesheet" href="../css/common.css">
+<script type="module" src="../js/api.js"></script>
+<script type="module" src="./status.js"></script>
+<script type="module" src="./student.js"></script>
+
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <h3>Student</h3>
+      <ul>
+        <li><a href="complaint.html">Submit Complaint</a></li>
+        <li><a href="status.html">View Status</a></li>
+      </ul>
+    </aside>
+    <main>
+      <div class="topbar">
+        <div id="welcome">Welcome</div>
+        <button id="logoutBtn">Logout</button>
+      </div>
+      <h2 style="text-align: center;">My Department Complaints</h2>
+      <table id="complaintTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Complaint</title>
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <h3>Student</h3>
+      <ul>
+        <li><a href="complaint.html" >Submit Complaint</a></li>
+        <li><a href="status.html">View Status</a></li>
+      </ul>
+    </aside>
+    <main>
+      <div class="topbar">
+        <div id="welcome"><strong>Welcome</strong></div>
+        <button id="logoutBtn">Logout</button>
+      </div>
+
+      <h2 style="text-align: center;">Submit Complaint</h2>
+      <form id="complaintForm">
+        <label>Name</label>
+        <input name="name" required placeholder="Enter your name">
+
+        <label>Department</label>
+        <input name="department" required placeholder="Enter your department">
+
+        <label>Category</label>
+        <input name="category" required placeholder="Enter category">
+
+        <label>Description</label>
+        <textarea name="description" required placeholder="Enter description"></textarea>
+
+        <button type="submit" >Submit</button>
+      </form>
+
+      <p id="submitMsg"></p>
+    </main>
+  </div>
+
+  <script type="module" src="./student.js"></script>
+</body>
+</html>

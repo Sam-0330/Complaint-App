@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HOD Dashboard</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <script type="module" src="../hod/hod.js" defer></script>
+</head>
+<body>
+<div class="layout">
+  <aside>
+    <h3>Department Heads</h3>
+    <ul>
+      <li><a href="complaints.html">All Complaints</a></li>
+    </ul>
+  </aside>
+  <main>
+    <div class="topbar">
+      <div id="welcome">Welcome</div>
+      <button id="logoutBtn">Logout</button>
+    </div>
+    <h2 style="text-align: center;">All Complaints</h2>
+    <table id="complaintTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Category</th>
+          <th>Description</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+</div>
+</body>
+</html>
