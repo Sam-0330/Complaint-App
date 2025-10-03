@@ -81,7 +81,7 @@ http://localhost:8081
 
 ### Step 4: Run the Frontend
 
-1. Navigate to the `src/main/resources/static/` folder.
+1. Navigate to the frontend folder.
 2. Open `index.html` directly in your browser **OR** use a local server (e.g., Live Server in VSCode).
 3. The frontend will connect to the backend running at `http://localhost:8081`.
 
