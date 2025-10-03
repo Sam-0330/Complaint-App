@@ -2,7 +2,7 @@ Got it — you want a **single clean README file** (without my extra commentary)
 
 Here’s the final version you can copy-paste directly into your repository as `README.md`:
 
-````markdown
+
 # Complaint Management System
 
 ## 1. Description
@@ -93,9 +93,4 @@ http://localhost:8081
 **Phone:** 9840025309
 **Email:** [shamitab0330@gmail.com](mailto:shamitab0330@gmail.com)
 
-```
 
----
-
-Would you like me to also add a **"Project Features" section** (student side vs admin side) before the database configuration so your GitHub visitors can quickly see what the system actually does?
-```
